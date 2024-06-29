@@ -1,0 +1,54 @@
+/* Importing webfonts */
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+
+/* CSS reset rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.6;
+    background-color: #fafafa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+h1, h2, h3, h4, h5, h6, header {
+    font-family: 'Yeseva One', serif;
+    color: #333;
+}
